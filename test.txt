@@ -1,0 +1,2 @@
+This is a text file to see how the encoding of my ceaser cipher works.
+It is very interesting to learn this part.

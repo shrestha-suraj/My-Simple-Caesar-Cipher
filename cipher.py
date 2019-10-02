@@ -1,6 +1,7 @@
-message=input('Enter the message you want to encode: ')
-mykey=34190725
-key=input("Enter the 8 bit key for encryption and decryption (Example: 12345678):  ")
+def askingUser():
+    message=input('Enter the message you want to encode: ')
+    mykey=34190725
+    key=input("Enter the 8 bit key for encryption and decryption (Example: 12345678):  ")
 
 def encrypter(message,key):
     bit_keys=[int(x) for x in str(key)]
@@ -34,6 +35,6 @@ def decrypter(code,key):
         decoded_message+=str(chr(char_ascii))
     return decoded_message
 
-code=encrypter(message,key)
-print("Message encryption successful.\nEncrypted Code: "+str(code))
-print("\n\nMessage decryption successful.\nDecrypted Message: "+str(decrypter(code,key)))
+# code=encrypter(message,key)
+# print("Message encryption successful.\nEncrypted Code: "+str(code))
+# print("\n\nMessage decryption successful.\nDecrypted Message: "+str(decrypter(code,key)))
