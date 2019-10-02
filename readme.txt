@@ -48,3 +48,6 @@ Corresponding key = 7 which is odd so subtraction
 111-7 = 104 = CharacterofASCII(104) = h
 
 And so on....
+
+Update:
+The project has been updated to encode a text file and output another text file with the encoded message.
